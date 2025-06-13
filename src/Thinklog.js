@@ -67,7 +67,7 @@ export default function Portfolio() {
   </li>
 
   <li>
-    <a href="https://ontologyone.app" target="_blank" rel="noopener noreferrer" className="underline text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300">
+    <a href="https://ontologyone-frontend.onrender.com" target="_blank" rel="noopener noreferrer" className="underline text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300">
       Launch the app
     </a>
     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
