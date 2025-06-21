@@ -1,10 +1,9 @@
 /* Base container simulating letter paper */
 .letter-paper {
-  background-image: url('./OntologyOne/light-paper-fibers.png');
+  background-color: #f9f9f6;
   background-repeat: repeat;
   background-size: 300px auto;
 
-  background-color: #f9f9f6;
   padding: 2rem;
   margin: 2rem auto;
   max-width: 700px;
@@ -35,9 +34,8 @@
   text-align: center;
   width: fit-content;
   border-radius: 20px;
-  background-color: #f7f2ed;
+  background-color: #f9f9f6;
   padding: 10px 50px;
-  background: url('./OntologyOne/olga-thelavart-vS3idIiYxX0-unsplash.jpg');
   background-blend-mode: lighten;
   background-size: 300px auto;
 }
@@ -168,6 +166,54 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.6;
+}
+
+a {
+  text-decoration: none;        /* remove underline */
+  color: #153a9d;             /* inherit text color */
+  font-weight: inherit;         /* optional: avoid bold if links are styled */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.quick-links {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.quick-links-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #475569;
+  margin-bottom: 0.75rem;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.quick-links li {
+  margin-bottom: 0.5rem;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: #1d4ed8; /* a friendly blue */
+  transition: color 0.2s ease;
+}
+
+.quick-links a:hover {
+  color: #2563eb;
+  text-decoration: underline;
 }
 
 /* Responsive layout for mobile devices */
